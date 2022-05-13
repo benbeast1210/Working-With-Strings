@@ -26,3 +26,18 @@ def word_length():
     x += len(i)
   
   print(x/y)
+
+# longest_word will take in a string as input and perform a .split
+# method on it to prepare for recursion. Then, I check for the longest
+# word by defining two new variables. I then use the index of the 
+# longest word to locate it for the print statement.
+text = input().split()
+
+def longest_word():
+  length = [len(x) for x in text]
+  maximum = max(length)
+
+  text_index = length.index(maximum)
+  
+  print(text[text_index])
+

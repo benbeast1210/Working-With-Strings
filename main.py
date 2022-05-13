@@ -2,6 +2,7 @@
 # check, and a letter to check for. It will 
 # return an integer denoting the number of 
 # times the 'letter' appears in the 'word'.
+
 def letter_frequency():
   word = input()
   letter = input()
